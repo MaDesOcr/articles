@@ -1,12 +1,13 @@
 
 import './App.css'
-import ListCard from './component/ListCard'
+import { ArticleList } from './component/ArticleList'
+
 
 function App() {
 
   return (
     <>
-      <ListCard></ListCard>
+      <ArticleList></ArticleList>
     </>
   )
 }
