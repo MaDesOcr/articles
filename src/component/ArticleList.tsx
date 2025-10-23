@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import type { Article } from '../model/Articles';
 import { fetchProducts } from '../data/InteractApi';
 import { ArticleCard } from './Card';
+import './ArticleList.css';
 
 export const ArticleList = () => {
   const [articles, setArticles] = useState<Article[]>([]);

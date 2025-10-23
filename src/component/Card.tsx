@@ -1,6 +1,9 @@
 
 import type { Article } from "../model/Articles";
+
 import '../App.css';
+import './Card.css';
+
 
 interface ArticleCardProps {
   article: Article;
