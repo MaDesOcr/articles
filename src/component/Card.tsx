@@ -1,6 +1,5 @@
 
 import type { Article } from "../model/Articles";
-import { Link } from "react-router-dom";
 
 import '../App.css';
 import './Card.css';
@@ -18,8 +17,6 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
         alt={article.title}
         className="article-image"
       />
-
-      <Link to={`/article/${article.id}`}><button>Détails</button></Link>
 
       <div className="article-content">
         <h3 className="article-title">{article.title}</h3>

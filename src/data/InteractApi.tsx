@@ -9,4 +9,3 @@ export const fetchProductById = async (id: number) => {
   const data = await response.json();
   return data;
 };
-
